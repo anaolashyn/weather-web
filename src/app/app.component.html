@@ -12,7 +12,7 @@
         <div>{{data.current.weather}}</div>
       </div>
       <div class="current__block current__item">
-        <img class="current__item_none" src="../assets/icons/map_black_24dp.svg" alt="map">
+        <img class="current__item_none" src="./assets/icons/map_black_24dp.svg" alt="map">
         <div>{{data.current.timezone}}</div>
       </div>
     </div>
@@ -33,32 +33,32 @@
       <div *ngIf="dayActive" class="highlights">
         <div class="highlights__item">
           <div class="highlights__title">UV Index</div>
-          <img class="highlights__img" src="../assets/2682806_light_radiation_rays_sun_ultraviolet_icon.svg" alt="uvi">
+          <img class="highlights__img" src="./assets/2682806_light_radiation_rays_sun_ultraviolet_icon.svg" alt="uvi">
           <div class="highlights__value">{{dayActive.uvi}}</div>
         </div>
         <div class="highlights__item">
           <div class="highlights__title">Wind</div>
-          <img class="highlights__img" src="../assets/379360_wheel_wind_icon.svg" alt="wind">
+          <img class="highlights__img" src="./assets/379360_wheel_wind_icon.svg" alt="wind">
           <div class="highlights__value">{{dayActive.windDeg}}</div>
         </div>
         <div class="highlights__item">
           <div class="highlights__title">Wind Speed</div>
-          <img class="highlights__img" src="../assets/5296654_carp_fish_flag_japan_japanese_icon.svg" alt="speed">
+          <img class="highlights__img" src="./assets/5296654_carp_fish_flag_japan_japanese_icon.svg" alt="speed">
           <div class="highlights__value">{{dayActive.windSpeed}}m/s</div>
         </div>
         <div class="highlights__item">
           <div class="highlights__title">Humidity</div>
-          <img class="highlights__img" src="../assets/1054937_water_drop_icon.svg" alt="humidity">
+          <img class="highlights__img" src="./assets/1054937_water_drop_icon.svg" alt="humidity">
           <div class="highlights__value">{{dayActive.humidity}}%</div>
         </div>
         <div class="highlights__item">
           <div class="highlights__title">Clouds</div>
-          <img class="highlights__img" src="../assets/4908731_cloud_fog_season_sky_weather_icon.svg" alt="clouds">
+          <img class="highlights__img" src="./assets/4908731_cloud_fog_season_sky_weather_icon.svg" alt="clouds">
           <div class="highlights__value">{{dayActive.clouds}}%</div>
         </div>
         <div class="highlights__item">
           <div class="highlights__title">Precipitation</div>
-          <img class="highlights__img" src="../assets/1378826_house_umbrella_blue_protection_rain_icon.svg" alt="prec">
+          <img class="highlights__img" src="./assets/1378826_house_umbrella_blue_protection_rain_icon.svg" alt="prec">
           <div class="highlights__value">{{dayActive.pop*100}}%</div>
         </div>
       </div>
